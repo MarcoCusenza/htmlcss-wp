@@ -7,7 +7,7 @@
 }
 
 body{
-    padding: 1vh;
+    padding: .2vh;
 }
 
 .left{
@@ -47,17 +47,19 @@ body{
 
 
 /* +++++ HEADER +++++ */
-.container-htop{
-    height: 6vh;
-}
+
+/* Altezza dell'header ormai inutile perché già definita dall'altezza dei contenuti */
+/* .container-header{
+    height: 13vh;
+} */
 
 .container-logo{
-    width: 11.5vw;
+    width: 12.5vw;
     border-right: 2px solid rgb(226, 226, 226);
 }
 
 #logo-header{
-    width: 10vw;
+    width: 11vw;
 }
 
 header li{
@@ -77,7 +79,6 @@ header a:hover{
 }
 
 .container-hbottom{
-    height: 6vh;
     line-height: 6vh;
 }
 /* ----- HEADER ----- */
@@ -210,7 +211,6 @@ header a:hover{
 
 /* + DEBUG HEADER + */
 .debug .container-header{
-    /* background-color: violet; */
     outline: 2px solid purple;
 }
 
@@ -224,22 +224,21 @@ header a:hover{
 
 /* + DEBUG JUMBO + */
 .debug .container-jumbo{
-    /* background-color: rgb(231, 231, 133); */
     outline: 2px solid rgb(231, 231, 133);
 }
 
+/* + DEBUG MAIN + */
 .debug .container-main{
-    /* background-color: rgb(31, 133, 230); */
     outline: 2px solid rgb(31, 133, 230);
 }
 
 .debug .main-section, .debug .main-header{
-    /* background-color: lightblue; */
     border: 2px solid lightblue;
 }
 
+/* + DEBUG FOOTER + */
 .debug .container-footer{
-    /* background-color: rgb(144, 85, 211); */
     outline: 2px solid rgb(144, 85, 211);
 }
+
 /* ----- DEBUG ----- */
