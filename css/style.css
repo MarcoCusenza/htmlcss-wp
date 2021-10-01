@@ -33,7 +33,7 @@ body{
     margin-bottom: 2.5vh;
 }
 
-.layover{
+.bonus-layover{
     background-color: rgba(0, 0, 0, 0.253);
     height:100%;
     width: 100%;
@@ -94,7 +94,7 @@ header a:hover{
     width: 38vw;
     position: absolute;
     left: 5%;
-    bottom: 15%;
+    bottom: 14%;
 }
 
 .text-container-jumbo h2{
@@ -121,6 +121,17 @@ header a:hover{
 
 .main-header, .main-body{
     margin-bottom: 2vh;
+}
+
+.text-grey{
+    color: rgb(156, 156, 156);
+    font-size: 1.5vh;
+}
+
+.main-header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.6vh;
+    font-weight: 700;
 }
 
 .main-body aside{
