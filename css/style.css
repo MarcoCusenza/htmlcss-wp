@@ -3,10 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body{
-    padding: 2vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .left{
@@ -35,8 +32,38 @@ body{
 
 
 /* +++++ HEADER +++++ */
-.container-header{
-    height: 12vh;
+.container-htop{
+    height: 6vh;
+}
+
+.container-logo{
+    width: 11.5vw;
+    border-right: 2px solid rgb(226, 226, 226);
+}
+
+#logo-header{
+    width: 10vw;
+}
+
+header li{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 1vw;
+    font-size: 1.35vh;
+}
+
+header a{
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+}
+
+header a:hover{
+    color: rgb(95, 95, 95);
+}
+
+.container-hbottom{
+    height: 6vh;
+    line-height: 6vh;
 }
 /* ----- HEADER ----- */
 
@@ -76,17 +103,30 @@ body{
 
 /* +++++ DEBUG +++++ */
 
+/* + DEBUG HEADER + */
 .debug .container-header{
-    background-color: violet;
+    /* background-color: violet; */
+    outline: 2px solid purple;
 }
 
+.debug .container-htop{
+    border: 2px solid violet;
+}
+
+.debug .container-hbottom{
+    border: 2px solid violet;
+}
+
+/* + DEBUG JUMBO + */
 .debug .container-jumbo{
     height: 44vh;
-    background-color: rgb(231, 231, 133);
+    /* background-color: rgb(231, 231, 133); */
+    outline: 2px solid rgb(231, 231, 133);
 }
 
 .debug .container-main{
-    background-color: rgb(31, 133, 230);
+    /* background-color: rgb(31, 133, 230); */
+    outline: 2px solid rgb(31, 133, 230);
 }
 
 .debug .main-header{
@@ -94,7 +134,8 @@ body{
 }
 
 .debug .main-section, .debug .main-header{
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    border: 2px solid lightblue;
 }
 
 .debug .main-body>.main-section{
@@ -102,6 +143,7 @@ body{
 }
 
 .debug .container-footer{
-    background-color: rgb(144, 85, 211);
+    /* background-color: rgb(144, 85, 211); */
+    outline: 2px solid rgb(144, 85, 211);
 }
 /* ----- DEBUG ----- */
