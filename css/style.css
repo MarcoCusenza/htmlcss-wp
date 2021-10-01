@@ -23,19 +23,19 @@ body{
     clear: both;
 }
 
-.container{
+.container-body{
     margin: auto;
     width: 80vw;
 }
 
-.margin-bot-std{
+.mbot-std{
     margin-bottom: 2.5vh;
 }
 /* ----- COMMONS ----- */
 
 
 /* +++++ HEADER +++++ */
-.header-class{
+.container-header{
     height: 12vh;
 }
 /* ----- HEADER ----- */
@@ -46,19 +46,19 @@ body{
 
 
 /* +++++ MAIN +++++ */
-.main-class{
+.container-main{
     margin-bottom: 1vh;
 }
 
-.main-section{
+.main-header, .main-body{
     margin-bottom: 2vh;
 }
 
-.side{
+.main-body aside{
     width: 15.5vw;
 }
 
-.central{
+.main-body .central{
     width: 46vw;
     margin: 0 1.5vw 0 1.5vw;
 }
@@ -66,7 +66,7 @@ body{
 
 
 /* +++++ FOOTER +++++ */
-.footer-class{
+.container-footer{
     height: 6vh;
 }
 /* ----- FOOTER ----- */
@@ -76,40 +76,32 @@ body{
 
 /* +++++ DEBUG +++++ */
 
-/* border radius da togliere da tutti i container prima di lavorare sul contenuto,  l'ho aggiunto per pura estetica */
-.debug .container{
-    border-radius: 50px;
-}
-
-.debug .header-class{
+.debug .container-header{
     background-color: violet;
 }
 
-.debug .jumbo{
+.debug .container-jumbo{
     height: 44vh;
     background-color: rgb(231, 231, 133);
 }
 
-/* al main non serve altezza perché ha già del contenuto */
-.debug .main-class{
+.debug .container-main{
     background-color: rgb(31, 133, 230);
 }
 
-.debug .top{
+.debug .main-header{
     height: 8vh;
 }
 
-/* border radius da togliere da tutti i container prima di lavorare sul contenuto,  l'ho aggiunto per pura estetica */
-.debug .main-section{
+.debug .main-section, .debug .main-header{
     background-color: lightblue;
-    border-radius: 50px;
 }
 
-.debug .vertical{
+.debug .main-body>.main-section{
     height: 46vh;
 }
 
-.debug .footer-class{
+.debug .container-footer{
     background-color: rgb(144, 85, 211);
 }
 /* ----- DEBUG ----- */
