@@ -7,7 +7,7 @@
 }
 
 body{
-    padding: .2vh;
+    padding: .5vh;
 }
 
 .left{
@@ -79,14 +79,15 @@ header a:hover{
 }
 
 .container-hbottom{
-    line-height: 6vh;
+    line-height: 4vh;
+    padding-top: 1.7vh;
 }
 /* ----- HEADER ----- */
 
 
 /* +++++ JUMBOTRON +++++ */
 .jumbo-img{
-    height: 44vh;
+    height: 45vh;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
