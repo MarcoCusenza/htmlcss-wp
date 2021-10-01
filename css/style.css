@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    padding: 1vh;
+}
+
 .left{
     float: left;
 }
@@ -27,6 +31,13 @@
 
 .mbot-std{
     margin-bottom: 2.5vh;
+}
+
+.layover{
+    background-color: rgba(0, 0, 0, 0.253);
+    height:100%;
+    width: 100%;
+    border-radius: 10px;
 }
 /* ----- COMMONS ----- */
 
@@ -69,6 +80,37 @@ header a:hover{
 
 
 /* +++++ JUMBOTRON +++++ */
+.jumbo-img{
+    height: 44vh;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.text-container-jumbo{
+    color: white;
+    width: 38vw;
+    position: absolute;
+    left: 5%;
+    bottom: 15%;
+}
+
+.text-container-jumbo h2{
+    font-weight: 400;
+    font-size: 2.5vh;
+}
+
+.text-container-jumbo p{
+    font-size: 1.4vh;
+    overflow: hidden; /* nasconde il testo in overflow */
+    text-overflow: ellipsis; /* aggiunge i "..." */
+    display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2; /* numero di righe da vedere */
+}
+
 /* ----- JUMBOTRON ----- */
 
 
@@ -119,7 +161,6 @@ header a:hover{
 
 /* + DEBUG JUMBO + */
 .debug .container-jumbo{
-    height: 44vh;
     /* background-color: rgb(231, 231, 133); */
     outline: 2px solid rgb(231, 231, 133);
 }
