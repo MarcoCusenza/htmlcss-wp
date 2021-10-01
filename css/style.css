@@ -1,0 +1,115 @@
+/* +++++ COMMONS +++++ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 2vh;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    margin: auto;
+    width: 80vw;
+}
+
+.margin-bot-std{
+    margin-bottom: 2.5vh;
+}
+/* ----- COMMONS ----- */
+
+
+/* +++++ HEADER +++++ */
+.header-class{
+    height: 12vh;
+}
+/* ----- HEADER ----- */
+
+
+/* +++++ JUMBOTRON +++++ */
+/* ----- JUMBOTRON ----- */
+
+
+/* +++++ MAIN +++++ */
+.main-class{
+    margin-bottom: 1vh;
+}
+
+.main-section{
+    margin-bottom: 2vh;
+}
+
+.side{
+    width: 15.5vw;
+}
+
+.central{
+    width: 46vw;
+    margin: 0 1.5vw 0 1.5vw;
+}
+/* ----- MAIN ----- */
+
+
+/* +++++ FOOTER +++++ */
+.footer-class{
+    height: 6vh;
+}
+/* ----- FOOTER ----- */
+
+
+
+
+/* +++++ DEBUG +++++ */
+
+/* border radius da togliere da tutti i container prima di lavorare sul contenuto,  l'ho aggiunto per pura estetica */
+.debug .container{
+    border-radius: 50px;
+}
+
+.debug .header-class{
+    background-color: violet;
+}
+
+.debug .jumbo{
+    height: 44vh;
+    background-color: rgb(231, 231, 133);
+}
+
+/* al main non serve altezza perché ha già del contenuto */
+.debug .main-class{
+    background-color: rgb(31, 133, 230);
+}
+
+.debug .top{
+    height: 8vh;
+}
+
+/* border radius da togliere da tutti i container prima di lavorare sul contenuto,  l'ho aggiunto per pura estetica */
+.debug .main-section{
+    background-color: lightblue;
+    border-radius: 50px;
+}
+
+.debug .vertical{
+    height: 46vh;
+}
+
+.debug .footer-class{
+    background-color: rgb(144, 85, 211);
+}
+/* ----- DEBUG ----- */
