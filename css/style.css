@@ -29,8 +29,12 @@ body{
     width: 80vw;
 }
 
-.mbot-std{
-    margin-bottom: 2.5vh;
+.mbot-small{
+    margin-bottom: 3vh;
+}
+
+.mbot-big{
+    margin-bottom: 4vh;
 }
 
 .bonus-layover{
@@ -60,11 +64,11 @@ header li{
     vertical-align: middle;
     display: inline-block;
     margin-right: 1vw;
-    font-size: 1.35vh;
+    font-size: 1.5vh;
 }
 
 header a{
-    color: rgb(156, 156, 156);
+    color: rgb(136, 136, 136);
     text-decoration: none;
 }
 
@@ -119,21 +123,19 @@ header a:hover{
     margin-bottom: 1vh;
 }
 
-.main-header, .main-body{
-    margin-bottom: 2vh;
-}
-
 .text-grey{
-    color: rgb(156, 156, 156);
-    font-size: 1.5vh;
+    color: rgb(136, 136, 136);
+    font-size: 1.4vh;
 }
 
+/* main header */
 .main-header h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.6vh;
     font-weight: 700;
 }
 
+/* main body */
 .main-body aside{
     width: 15.5vw;
 }
@@ -142,6 +144,45 @@ header a:hover{
     width: 46vw;
     margin: 0 1.5vw 0 1.5vw;
 }
+
+.main-img-left{
+    height: 18vh;
+    background-image: url("../img/img-1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.main-img-center{
+    height: 18vh;
+    background-image: url("../img/banner-2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.main-img-right{
+    height: 18vh;
+    background-image: url("../img/img-3.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.main-body h5{
+    font-size: 1.4vh;
+    margin-top: 1.2vh;
+    font-weight: 500;
+    color: rgb(95, 95, 95);
+}
+
+.main-body p{
+    margin-top: 1vh;
+}
+
 /* ----- MAIN ----- */
 
 
@@ -181,17 +222,9 @@ header a:hover{
     outline: 2px solid rgb(31, 133, 230);
 }
 
-.debug .main-header{
-    height: 8vh;
-}
-
 .debug .main-section, .debug .main-header{
     /* background-color: lightblue; */
     border: 2px solid lightblue;
-}
-
-.debug .main-body>.main-section{
-    height: 46vh;
 }
 
 .debug .container-footer{
